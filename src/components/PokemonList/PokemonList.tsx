@@ -6,11 +6,11 @@ const PokemonList: React.FC = () => {
     const { pokemonList, goToNextPage, goToPreviousPage } = useGetPokemonList()
     return (
         <>
-            {pokemonList?.map((pokemon) => (
-                <PokemonCard key={pokemon?.name} pokemon={pokemon}/>
-            ))}
+            {pokemonList?.map((pokemon) =>
+                <PokemonCard key={pokemon?.name} pokemon={pokemon} />
+            )}
         </>
     )
 }
 
-export default PokemonList;
+export default PokemonList

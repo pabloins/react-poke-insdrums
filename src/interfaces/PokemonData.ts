@@ -13,11 +13,11 @@ export interface PokemonSprites {
     back_shiny: string;
 }
 
-export interface Pokemondata {
+export interface PokemonData {
     name: string;
     id: number;
     height: number;
     weight: number;
-    types: PokemonType;
+    types: PokemonType[];
     sprites: PokemonSprites;
 }
