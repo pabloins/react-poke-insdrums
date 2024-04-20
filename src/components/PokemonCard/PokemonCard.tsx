@@ -3,7 +3,7 @@ import { useGetPokemon } from "../../hooks/useGetPokemon";
 import { PokemonListItem } from "../../interfaces/PokemonListItem";
 import { getMainPokemonType } from "../../utils/getMainPokemonType";
 import { Label } from "../../shared/Label/Label";
-import { capitilizeFirstLetter } from "../../utils/capitilizeFirstletter";
+import { capitilizeFirstLetter } from "../../utils/capitilizeFirstLetter";
 
 interface PokemonCardProps {
     pokemon?: PokemonListItem;
