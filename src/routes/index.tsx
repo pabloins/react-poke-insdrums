@@ -28,7 +28,7 @@ const AppRoutes = () => {
                 path="/type/:typeName"
                 element={
                     <React.Suspense fallback={<div>Loading...</div>}>
-                        <PokemonProfile />
+                        <PokemonByType />
                     </React.Suspense>
                 }
             />
