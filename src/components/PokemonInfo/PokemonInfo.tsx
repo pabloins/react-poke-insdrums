@@ -7,6 +7,7 @@ import { convertLbsToKg } from "../../utils/convertLbsToKg";
 import { convertInchesToCm } from "../../utils/convertInchesToCm";
 import { PokemonSprites } from "../PokemonSprites/PokemonSprites";
 import { TypeIcons } from "../shared/TypeIcon/TypeIcons";
+import { useSearchStore } from "../../store/useSearchStore";
 
 export const PokemonInfo = () => {
     const { pokemonName } = useParams();
