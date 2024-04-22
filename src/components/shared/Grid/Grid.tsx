@@ -8,7 +8,7 @@ interface GridProps {
 
 export const Grid: React.FC<GridProps> = ({ children, goToPreviousPage, goToNextPage }) => (
     <div className="container mx-auto w-100">
-        <div className="grid grid-cols-4 gap-3 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 mx-auto">
             {children}
         </div>
         <div className="flex justify-center mt-4 gap-5">

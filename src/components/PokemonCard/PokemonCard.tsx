@@ -33,7 +33,7 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon, pokemonId }) 
                 <div className="flex flex-col items-center mx-auto" onClick={onClick}>
                     <Label>{pokemonData?.name ? capitilizeFirstLetter(pokemonData.name) : ""}</Label>
                     <img
-                        className="mx-auto w-40 h-40"
+                        className="mx-auto w-40 h-40 hover:scale-105"
                         src={pokemonData?.sprites?.front_default}
                         alt={pokemonData?.name ?? ""}
                     />

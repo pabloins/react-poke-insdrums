@@ -31,13 +31,13 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: './public/404.html', to: '[name][ext]' },
-                { from: './public/favicon.ico', to: '[name][ext]' },
+                { from: './public/pikachu.png', to: '[name][ext]' },
             ],
         }),
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'public', 'index.html'),
             filename: './index.html',
-            favicon: './public/favicon.ico',
+            favicon: './public/pikachu.png',
             manifest: "./public/manifest.json"
         }),
     ],
