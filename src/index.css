@@ -2,6 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.background-gif {
+    background-image: url('../public/pikachu-gif.gif');
+    background-color: #8CAEE1; /* Fondo rojo */
+    /* Ajusta estos valores según tus necesidades */
+}
+
 .bug-background {
     background: url(../public/assets/bug.jpg);
     background-size: cover;
