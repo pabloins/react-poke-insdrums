@@ -4,6 +4,7 @@
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --config webpack.prod.js",
+    "test": "jest --runInBand",
     "prettier": "prettier --check src/**/*.ts*",
     "prettier:fix": "prettier --write src/**/*.ts*"
   },
