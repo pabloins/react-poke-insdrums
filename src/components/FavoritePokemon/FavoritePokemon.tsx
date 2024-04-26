@@ -3,7 +3,7 @@ import { useFavoriteStore } from "../../store/useFavoriteStore"
 import { PokemonCard } from "../PokemonCard/PokemonCard";
 import { Grid } from "../shared/Grid/Grid";
 
-const FavoritePokemon = () => {
+export const FavoritePokemon = () => {
     const favoriteIds = useFavoriteStore((state) => state.favorites);
 
     return (

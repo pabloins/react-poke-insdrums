@@ -8,5 +8,5 @@ module.exports = {
     setupFilesAfterEnv: ["<rootDir>/src/setupTests.ts"],
     preset: "ts-jest",
     testEnvironment: "jsdom",
-    testPathIgnorePtterns: ["node_modules", "build", "e2e"],
+    testPathIgnorePatterns: ["node_modules", "build", "e2e"],
 };

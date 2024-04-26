@@ -23,3 +23,5 @@ export const useFavoriteStore = create<FavoriteStore>((set) => ({
         return { favorites };
     })
 }));
+
+export default useFavoriteStore
