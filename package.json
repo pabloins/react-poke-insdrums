@@ -5,6 +5,8 @@
     "start": "webpack serve",
     "build": "webpack --config webpack.prod.js",
     "test": "jest --runInBand",
+    "test:e2e": "playwright test",
+    "test:e2e-debug": "playwright test --debug",
     "prettier": "prettier --check src/**/*.ts*",
     "prettier:fix": "prettier --write src/**/*.ts*"
   },
@@ -29,6 +31,8 @@
     "zustand": "^4.4.6"
   },
   "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.8",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.2.15",
     "@types/react-modal": "^3.16.3",
